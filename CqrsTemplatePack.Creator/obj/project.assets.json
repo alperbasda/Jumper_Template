@@ -1,0 +1,165 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.TemplateEngine.Tasks/7.0.111": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.TemplateEngine.Tasks.props": {},
+          "build/Microsoft.TemplateEngine.Tasks.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.TemplateEngine.Tasks/7.0.111": {
+      "sha512": "jdfZDcD5xSIpA4QKWotiIBRLQ0FJLxBq8CjhMR92SZ03uv6HzUK3S4E6QwzveIHlW7KfVL348Hm+mrR+X8eoeg==",
+      "type": "package",
+      "path": "microsoft.templateengine.tasks/7.0.111",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Microsoft.TemplateEngine.Tasks.props",
+        "build/Microsoft.TemplateEngine.Tasks.targets",
+        "microsoft.templateengine.tasks.7.0.111.nupkg.sha512",
+        "microsoft.templateengine.tasks.nuspec",
+        "tasks/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Logging.Console.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "tasks/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "tasks/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.Tasks.deps.json",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.Tasks.dll",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.Tasks.pdb",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.TemplateLocalizer.Core.dll",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.TemplateLocalizer.Core.pdb",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.TemplateLocalizer.Core.resources.dll",
+        "tasks/netstandard2.0/Microsoft.TemplateEngine.TemplateLocalizer.Core.xml",
+        "tasks/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "tasks/netstandard2.0/System.Buffers.dll",
+        "tasks/netstandard2.0/System.Collections.Immutable.dll",
+        "tasks/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "tasks/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "tasks/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "tasks/netstandard2.0/System.Memory.dll",
+        "tasks/netstandard2.0/System.Numerics.Vectors.dll",
+        "tasks/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "tasks/netstandard2.0/System.Security.AccessControl.dll",
+        "tasks/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "tasks/netstandard2.0/System.Security.Permissions.dll",
+        "tasks/netstandard2.0/System.Security.Principal.Windows.dll",
+        "tasks/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "tasks/netstandard2.0/System.Text.Encodings.Web.dll",
+        "tasks/netstandard2.0/System.Text.Json.dll",
+        "tasks/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "tasks/netstandard2.0/cs/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/de/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/es/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/fr/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/it/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/ja/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/ko/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/pl/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/pt-BR/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/ru/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/tr/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/zh-Hans/Microsoft.TemplateEngine.Tasks.resources.dll",
+        "tasks/netstandard2.0/zh-Hant/Microsoft.TemplateEngine.Tasks.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.TemplateEngine.Tasks >= *"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
+      "projectName": "CqrsTemplatePack.Creator",
+      "projectPath": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\NugetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU5128"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.TemplateEngine.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[*, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

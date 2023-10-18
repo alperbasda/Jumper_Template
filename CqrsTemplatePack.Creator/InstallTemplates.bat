@@ -1,0 +1,1 @@
+dotnet new install "CqrsTemplatePack.Creator.1.0.0.nupkg"

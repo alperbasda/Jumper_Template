@@ -1,0 +1,11 @@
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\bin\Debug\net7.0\CqrsTemplatePack.Common.deps.json
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\bin\Debug\net7.0\CqrsTemplatePack.Common.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\bin\Debug\net7.0\CqrsTemplatePack.Common.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\CqrsTemplatePack.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\CqrsTemplatePack.Common.AssemblyInfoInputs.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\CqrsTemplatePack.Common.AssemblyInfo.cs
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\CqrsTemplatePack.Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\CqrsTemplatePack.Common.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\refint\CqrsTemplatePack.Common.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\CqrsTemplatePack.Common.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\Common\CqrsTemplatePack.Common\obj\Debug\net7.0\ref\CqrsTemplatePack.Common.dll

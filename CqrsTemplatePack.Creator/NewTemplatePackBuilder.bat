@@ -1,0 +1,1 @@
+dotnet new install Microsoft.TemplateEngine.Authoring.Templates

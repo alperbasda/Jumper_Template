@@ -1,0 +1,17 @@
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Persistence.deps.json
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Persistence.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Persistence.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Application.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Domain.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Application.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\bin\Debug\net7.0\CqrsTemplatePack.Domain.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.csproj.AssemblyReference.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.AssemblyInfoInputs.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.AssemblyInfo.cs
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.csproj.CopyComplete
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\refint\CqrsTemplatePack.Persistence.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\CqrsTemplatePack.Persistence.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Persistence\obj\Debug\net7.0\ref\CqrsTemplatePack.Persistence.dll

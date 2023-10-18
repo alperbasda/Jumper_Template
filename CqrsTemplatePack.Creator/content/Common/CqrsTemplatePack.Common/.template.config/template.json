@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Jumper Team",
+  "classifications": [ "Common", "Library","C#" ],
+  "identity": "Jumper.Cqrs.Common",
+  "name": "Jumper Cqrs Common",
+  "shortName": "jumpercommon",
+  "sourceName": "CqrsTemplatePack",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "solutionname": {
+      "type": "parameter",
+      "dataType": "text",
+      "defaultValue": "deneme123",
+      "replaces": "{{solutionname}}"
+    },
+    "UseDatabase": {
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true",
+      "replaces": "{{usedatabase}}"
+    },
+    "UseCache": {
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true",
+      "replaces": "{{usecache}}"
+    },
+    "UseRabbitMq": {
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true",
+      "replaces": "{{userabbitmq}}"
+    },
+    "UseSerilog": {
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true",
+      "replaces": "{{useserilog}}"
+    }
+  }
+
+}

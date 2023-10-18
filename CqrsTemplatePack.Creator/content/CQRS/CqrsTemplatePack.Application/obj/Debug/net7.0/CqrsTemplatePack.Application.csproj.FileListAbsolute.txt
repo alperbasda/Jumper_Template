@@ -1,0 +1,15 @@
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.csproj.AssemblyReference.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.AssemblyInfoInputs.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.AssemblyInfo.cs
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\bin\Debug\net7.0\CqrsTemplatePack.Application.deps.json
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\bin\Debug\net7.0\CqrsTemplatePack.Application.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\bin\Debug\net7.0\CqrsTemplatePack.Application.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\bin\Debug\net7.0\CqrsTemplatePack.Domain.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\bin\Debug\net7.0\CqrsTemplatePack.Domain.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.csproj.CopyComplete
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\refint\CqrsTemplatePack.Application.dll
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\CqrsTemplatePack.Application.pdb
+C:\Users\Admin\source\esterRepo\CqrsTemplatePack\Templates\CQRS\CqrsTemplatePack.Application\obj\Debug\net7.0\ref\CqrsTemplatePack.Application.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CqrsTemplatePack.Web.UI.props" />
+</Project>
