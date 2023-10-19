@@ -9,3 +9,14 @@ C:\Users\Admin\source\esterRepo\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTe
 C:\Users\Admin\source\esterRepo\CqrsTemplatePack.Creator\obj\Debug\net7.0\refint\CqrsTemplatePack.Creator.dll
 C:\Users\Admin\source\esterRepo\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.pdb
 C:\Users\Admin\source\esterRepo\CqrsTemplatePack.Creator\obj\Debug\net7.0\ref\CqrsTemplatePack.Creator.dll
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\bin\Debug\net7.0\CqrsTemplatePack.Creator.deps.json
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\bin\Debug\net7.0\CqrsTemplatePack.Creator.dll
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\bin\Debug\net7.0\CqrsTemplatePack.Creator.pdb
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.dll
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\refint\CqrsTemplatePack.Creator.dll
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\CqrsTemplatePack.Creator.pdb
+C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator\obj\Debug\net7.0\ref\CqrsTemplatePack.Creator.dll

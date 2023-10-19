@@ -9,7 +9,7 @@
     <Authors>Jumper Tema</Authors>
     <Description>Cqrs için proje temellerini içerir.</Description>
     <PackageTags>dotnet-new;templates;cqrs</PackageTags>
-    <PackageOutputPath>C:\Users\Admin\source\esterRepo\CqrsTemplatePack.Creator</PackageOutputPath>
+    <PackageOutputPath>C:\Users\Admin\source\repos\Jumper_Template\CqrsTemplatePack.Creator</PackageOutputPath>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
     <PackageType>Template</PackageType>

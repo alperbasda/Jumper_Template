@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4Iw9XnNsLFNbFYpKSakEg+es8DyRHuI9xsuBIcU+OvkhJ9lmDewO2zlpmtvcPsHwG8j37l1p6W99UBV+3nzwfQ==",
+  "dgSpecHash": "Wx1ETLbWtjBwzZtn3RfDiyc24XvcNlNAul7XCz1pM3IjiI19deCeNZg0yCX0wUkAfq1dD3k9avrUSTvykpnylA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Jumper_Template\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.templateengine.tasks\\7.0.111\\microsoft.templateengine.tasks.7.0.111.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.templateengine.tasks\\7.0.112\\microsoft.templateengine.tasks.7.0.112.nupkg.sha512"
   ],
   "logs": []
 }

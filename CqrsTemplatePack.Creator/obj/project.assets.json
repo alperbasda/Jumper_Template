@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Microsoft.TemplateEngine.Tasks/7.0.111": {
+      "Microsoft.TemplateEngine.Tasks/7.0.112": {
         "type": "package",
         "build": {
           "build/Microsoft.TemplateEngine.Tasks.props": {},
@@ -12,10 +12,10 @@
     }
   },
   "libraries": {
-    "Microsoft.TemplateEngine.Tasks/7.0.111": {
-      "sha512": "jdfZDcD5xSIpA4QKWotiIBRLQ0FJLxBq8CjhMR92SZ03uv6HzUK3S4E6QwzveIHlW7KfVL348Hm+mrR+X8eoeg==",
+    "Microsoft.TemplateEngine.Tasks/7.0.112": {
+      "sha512": "wTQgpA9mm98nCiVy+Laxt3pso0xAKTudTlXO2b3dUmyJ5o2IXc3Yj+fguVwX2W3nbRXmtFHYbP3HgtXnk2zQ+A==",
       "type": "package",
-      "path": "microsoft.templateengine.tasks/7.0.111",
+      "path": "microsoft.templateengine.tasks/7.0.112",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24,7 +24,7 @@
         "THIRD-PARTY-NOTICES.txt",
         "build/Microsoft.TemplateEngine.Tasks.props",
         "build/Microsoft.TemplateEngine.Tasks.targets",
-        "microsoft.templateengine.tasks.7.0.111.nupkg.sha512",
+        "microsoft.templateengine.tasks.7.0.112.nupkg.sha512",
         "microsoft.templateengine.tasks.nuspec",
         "tasks/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
         "tasks/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -93,17 +93,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Jumper_Template\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
       "projectName": "CqrsTemplatePack.Creator",
-      "projectPath": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Jumper_Template\\CqrsTemplatePack.Creator\\CqrsTemplatePack.Creator.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Jumper_Template\\CqrsTemplatePack.Creator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\NuGet.Config",
+        "C:\\Users\\Admin\\source\\repos\\Jumper_Template\\CqrsTemplatePack.Creator\\NuGet.Config",
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -113,7 +113,7 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\Admin\\source\\esterRepo\\CqrsTemplatePack.Creator\\NugetPackages\\": {},
+        "C:\\Users\\Admin\\source\\repos\\Jumper_Template\\CqrsTemplatePack.Creator\\NugetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v7.0": {
       "CqrsTemplatePack.Creator/1.0.0": {
         "dependencies": {
-          "Microsoft.TemplateEngine.Tasks": "7.0.111"
+          "Microsoft.TemplateEngine.Tasks": "7.0.112"
         },
         "runtime": {
           "CqrsTemplatePack.Creator.dll": {}
         }
       },
-      "Microsoft.TemplateEngine.Tasks/7.0.111": {}
+      "Microsoft.TemplateEngine.Tasks/7.0.112": {}
     }
   },
   "libraries": {
@@ -23,12 +23,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.TemplateEngine.Tasks/7.0.111": {
+    "Microsoft.TemplateEngine.Tasks/7.0.112": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jdfZDcD5xSIpA4QKWotiIBRLQ0FJLxBq8CjhMR92SZ03uv6HzUK3S4E6QwzveIHlW7KfVL348Hm+mrR+X8eoeg==",
-      "path": "microsoft.templateengine.tasks/7.0.111",
-      "hashPath": "microsoft.templateengine.tasks.7.0.111.nupkg.sha512"
+      "sha512": "sha512-wTQgpA9mm98nCiVy+Laxt3pso0xAKTudTlXO2b3dUmyJ5o2IXc3Yj+fguVwX2W3nbRXmtFHYbP3HgtXnk2zQ+A==",
+      "path": "microsoft.templateengine.tasks/7.0.112",
+      "hashPath": "microsoft.templateengine.tasks.7.0.112.nupkg.sha512"
     }
   }
 }
