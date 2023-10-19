@@ -1,10 +1,10 @@
 # Jumper_Template
 
-Jumper_Template projesi ne işe yarar ?
-
+<b>Jumper_Template projesi ne işe yarar ?</b>
+<br/>
 Jumper_Template projesi CQRS pattern için proje templatelerini oluşturmaya yarayan bir template enginedir.
 
-Template projesi nasıl ayağa kaldırılır ?
+<b>Template projesi nasıl ayağa kaldırılır ?</b>
 
 1-) Proje dosyalarını indirin.
 2-) CqrsTemplatePack.Creator.csproj dosyasını notepad vb bir uygulama ile açarak <PackageOutputPath> düğümünü bat dosyalarının bulundugu dizine ayarlayın.
