@@ -24,4 +24,9 @@
     <Folder Include="MongoEntities\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\{{solutionname}}.Common\{{solutionname}}.Common.csproj" />
+  </ItemGroup>
+
+  
 </Project>
