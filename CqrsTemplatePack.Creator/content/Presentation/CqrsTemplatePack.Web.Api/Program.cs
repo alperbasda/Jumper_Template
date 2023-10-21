@@ -1,4 +1,6 @@
 using CqrsTemplatePack.Web.Api.Middlewares;
+using CqrsTemplatePack.Persistance;
+using CqrsTemplatePack.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddCustomApiServices();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,6 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//Exception Yönetimini Saðlar.
 app.UseExceptionHandlerMiddleware();
 
 app.UseHttpsRedirection();

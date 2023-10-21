@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CQRS\{{solutionname}}.Application\{{solutionname}}.Application.csproj" />
     <ProjectReference Include="..\..\CQRS\{{solutionname}}.Persistence\{{solutionname}}.Persistence.csproj" />
   </ItemGroup>
 
