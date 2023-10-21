@@ -1,6 +1,5 @@
-﻿using Bip.Application.Features.Auth.Commands.RefreshToken;
-using Bip.Domain.Configurations;
-using Bip.Entegration.OptReceiver.AuthHelpers;
+﻿using CqrsTemplatePack.Application.Features.Auth.Commands.RefreshToken;
+using CqrsTemplatePack.Common.IdentityConfigurations;
 using Core.ApiHelpers.JwtHelper.Encyption;
 using Core.ApiHelpers.JwtHelper.Models;
 using Core.CrossCuttingConcerns.Exceptions.Types;
@@ -13,6 +12,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace CqrsTemplatePack.UI.Api.ActionFilters;
+
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
 public class AuthorizeHandlerAttribute : Attribute, IAuthorizationFilter
@@ -45,7 +45,7 @@ public class AuthorizeHandlerAttribute : Attribute, IAuthorizationFilter
 
             if (token == null)
             {
-                throw new AuthorizationException(AuthHelper.LoginUrl, "Geçersiz Kullanıcı. Lütfen Yeni Token Talep Edin.");
+                throw new AuthorizationException(string.Empty, "Geçersiz Kullanıcı. Lütfen Yeni Token Talep Edin.");
             }
 
             tokenParameters.AccessToken = jwt;
@@ -73,7 +73,7 @@ public class AuthorizeHandlerAttribute : Attribute, IAuthorizationFilter
 
             if (_requiredScopes != null && _requiredScopes.Any() && !_requiredScopes.Intersect(tokenParameters.Scopes).Any() && !tokenParameters.IsSuperUser)
             {
-                throw new AuthorizationException(AuthHelper.LoginUrl, "İşlme için yetkiye sahip değilsiniz.");
+                throw new AuthorizationException(string.Empty, "İşlme için yetkiye sahip değilsiniz.");
             }
 
             context.HttpContext!.Response.HttpContext.User = new ClaimsPrincipal(identity);
@@ -81,7 +81,7 @@ public class AuthorizeHandlerAttribute : Attribute, IAuthorizationFilter
             return;
         }
 
-        throw new AuthorizationException(AuthHelper.LoginUrl, "Geçersiz Kullanıcı. Lütfen Yeni Token Talep Edin.");
+        throw new AuthorizationException(string.Empty, "Geçersiz Kullanıcı. Lütfen Yeni Token Talep Edin.");
     }
 
     private string CreateTokenFromRefreshTokenIfTokenInvalid(HttpContext context, string token)
@@ -95,16 +95,7 @@ public class AuthorizeHandlerAttribute : Attribute, IAuthorizationFilter
         }
         catch (Exception e)
         {
-            if (context.Request.Headers.TryGetValue("AuthenticationToken", out StringValues refreshToken))
-            {
-                IMediator mediatr = context.RequestServices.GetService<IMediator>()!;
-                AuthHelper authHelper = context.RequestServices.GetService<AuthHelper>()!;
-                var newToken = mediatr!.Send(new RefreshTokenCommand { RefreshToken = refreshToken }).Result;
-                authHelper!.Login(newToken);
-
-                return newToken.AccessToken;
-            }
-            throw new AuthorizationException(AuthHelper.LoginUrl, "Geçersiz Kullanıcı. Lütfen Yeni Token Talep Edin.");
+            throw new AuthorizationException(string.Empty, "Geçersiz Kullanıcı. Lütfen Yeni Token Talep Edin.");
         }
     }
 
@@ -126,3 +117,4 @@ public class AuthorizeHandlerAttribute : Attribute, IAuthorizationFilter
     }
 
 }
+

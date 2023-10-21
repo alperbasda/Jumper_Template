@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CqrsTemplatePack.UI.Api
+namespace CqrsTemplatePack.UI.Api.Controllers.Base
 {
     public class MediatrController : Controller
     {

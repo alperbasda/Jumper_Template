@@ -38,7 +38,19 @@ public class ExceptionHandlerMiddleware
             await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail(errors, 400));
         }
         catch (BusinessException error)
+        {
+            _loggerServiceBase.Error(error.Message);
+            if (!string.IsNullOrEmpty(error.StackTrace))
+                _loggerServiceBase.Error(error.StackTrace);
+            await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail(error.Message, 400));
+        }
         catch (NotFoundException error)
+        {
+            _loggerServiceBase.Error(error.Message);
+            if (!string.IsNullOrEmpty(error.StackTrace))
+                _loggerServiceBase.Error(error.StackTrace);
+            await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail(error.Message, 400));
+        }
         catch (AuthorizationException error)
         {
             _loggerServiceBase.Error(error.Message);
