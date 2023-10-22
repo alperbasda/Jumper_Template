@@ -18,11 +18,12 @@ public static class ExceptionHandlerMiddlewareExtension
 public class ExceptionHandlerMiddleware
 {
     private readonly RequestDelegate _next;
-    LoggerServiceBase _loggerServiceBase;
-    public ExceptionHandlerMiddleware(RequestDelegate next, LoggerServiceBase loggerServiceBase)
+    //Exception logger kullanmak isterseniz yorum satırlarını kaldırabilirsiniz.
+    //LoggerServiceBase _loggerServiceBase;
+    public ExceptionHandlerMiddleware(RequestDelegate next /*, LoggerServiceBase loggerServiceBase*/)
     {
         _next = next;
-        _loggerServiceBase = loggerServiceBase;
+        //_loggerServiceBase = loggerServiceBase;
     }
 
     public async Task Invoke(HttpContext context)
@@ -39,30 +40,18 @@ public class ExceptionHandlerMiddleware
         }
         catch (BusinessException error)
         {
-            _loggerServiceBase.Error(error.Message);
-            if (!string.IsNullOrEmpty(error.StackTrace))
-                _loggerServiceBase.Error(error.StackTrace);
             await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail(error.Message, 400));
         }
         catch (NotFoundException error)
         {
-            _loggerServiceBase.Error(error.Message);
-            if (!string.IsNullOrEmpty(error.StackTrace))
-                _loggerServiceBase.Error(error.StackTrace);
             await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail(error.Message, 400));
         }
         catch (AuthorizationException error)
         {
-            _loggerServiceBase.Error(error.Message);
-            if (!string.IsNullOrEmpty(error.StackTrace))
-                _loggerServiceBase.Error(error.StackTrace);
             await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail(error.Message, 400));
         }
         catch (Exception error)
         {
-            _loggerServiceBase.Error(error.Message);
-            if (!string.IsNullOrEmpty(error.StackTrace))
-                _loggerServiceBase.Error(error.StackTrace);
             await context.Response.WriteAsJsonAsync(Response<MessageResponse>.Fail("İşlem sırasında bir hata oluştu.", 500));
         }
 
