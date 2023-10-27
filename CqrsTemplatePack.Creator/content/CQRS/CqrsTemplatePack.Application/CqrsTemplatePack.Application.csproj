@@ -12,9 +12,9 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="CQRS.ApiHelpers" Version="1.0.3.1" />
-    <PackageReference Include="CQRS.Application" Version="1.0.3.1" />
-    <PackageReference Include="CQRS.Security" Version="1.0.3.1" />
+    <PackageReference Include="Core.ApiHelpers" Version="2.0.0" />
+    <PackageReference Include="Core.Application" Version="2.0.0" />
+    <PackageReference Include="Core.Security" Version="2.0.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
     <!--if $userabbitmq$-->
     <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
