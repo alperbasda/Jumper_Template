@@ -42,6 +42,10 @@
 
             }
         });
+        if (partialLength == 0) {
+            callback();
+        }
+        
     },
     setDynamicDropdowns: function () {
 
@@ -57,11 +61,10 @@
 
                 pageEvents.setPartialQueryString(url, qsParam.split(','), function (urlWithQs) {
                     $(item).select2({
-                        placeholder: "Veri Seçin",
                         //if item has parent
                         dropdownParent: $(item).attr('data-parent'),
                         ajax: {
-                            url: urlWithQs,
+                            url: getBaseUrl() + "/" + urlWithQs,
                             dataType: 'json',
                             data: function (params) {
                                 var query = {
@@ -106,16 +109,16 @@
     setDynamicReferences: function () {
         var grouped = groupBy($('[data-fill-controller]').toArray(), w => $(w).attr('data-fill-controller'));
 
-        grouped.forEach((item,key) => {
+        grouped.forEach((item, key) => {
             ;
             post("/" + key + "/getnames",
                 { ids: item.map(q => $(q).attr('data-fill-ref')) },
                 function (response) {
                     for (index in response) {
-                        $('[data-fill-ref="' + response[index].id.toUpperCase()+'"]').html(response[index].text);
+                        $('[data-fill-ref="' + response[index].id.toUpperCase() + '"]').html(response[index].text);
                     }
-                    
-                    
+
+
                 });
 
         });
